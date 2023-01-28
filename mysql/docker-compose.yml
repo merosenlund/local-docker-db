@@ -2,7 +2,7 @@ version: '3'
 
 services: 
   db:
-    image: mysql:5.7.21
+    image: arm64v8/mysql
     volumes:
       - dbdata:/var/lib/mysql
     restart: always
