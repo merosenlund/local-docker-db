@@ -10,6 +10,7 @@ Aerospike   | [./aerospike](./aerospike)      | <https://aerospike.com/>
 ClickHouse  | [./clickhouse](./clickhouse)    | <https://clickhouse.tech/>
 DynamoDB    | [./dynamo](./dynamo/)           | <https://aws.amazon.com/dynamodb/>
 Fauna       | [./fauna](./fauna/)             | <https://fauna.com/>
+KVRocks     | [./kvrocks](./kvrocks/)         | <https://kvrocks.apache.org/>
 MariaDB     | [./maria](./maria/)             | <https://mariadb.org/>
 MeiliSearch | [./meilisearch](./meilisearch/) | <https://meilisearch.com/>
 MongoDB     | [./mongo](./mongo/)             | <https://mongodb.com/>

@@ -1,0 +1,20 @@
+version: "3.5"
+
+services:
+  kvrocks1:
+    image: apache/kvrocks:latest
+    container_name: kvrocks1
+    hostname: kvrocks1
+    command:
+      - "--requirepass"
+      - "kvrockspass"
+    ports:
+      - "6666:6666"
+    volumes:
+      - kvrocks_data:/data
+
+volumes:
+  kvrocks_data:
+    driver_opts:
+      type: tmpfs
+      device: tmpfs
